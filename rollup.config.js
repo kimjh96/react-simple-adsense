@@ -1,7 +1,7 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
-import packageJson from './package.json';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import packageJson from './package.json';
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 

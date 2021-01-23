@@ -1,1 +1,1 @@
-export { default as GoogleAdSense } from './src/components/GoogleAdSense';
+export { default } from './src/components/GoogleAdSense';
