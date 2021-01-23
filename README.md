@@ -1,35 +1,45 @@
 # React Simple AdSense
+
 It is a simple Google AdSense component for React
 
 ## Getting Started
 
 ### Installation
+
 #### npm
+
 ```
 npm i react-simple-adsense
 ```
+
 #### yarn
+
 ```
 yarn add react-simple-adsense
 ```
 
 ### Usage
+
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GoogleAdSense from 'react-simple-adsense';
 
 ReactDOM.render(
-  <GoogleAdSense 
-    html={'<ins class="adsbygoogle"\n' +
-        'style="display:inline-block;width:728px;height:90px"\n' +
-        'data-ad-client="YOUT_CLIENT_ID"\n' +
-        'data-ad-slot="YOUR_AD_SLOT"></ins>'}
+  <GoogleAdSense
+    html={
+      '<ins class="adsbygoogle"\n' +
+      'style="display:inline-block;width:728px;height:90px"\n' +
+      'data-ad-client="YOUT_CLIENT_ID"\n' +
+      'data-ad-slot="YOUR_AD_SLOT"></ins>'
+    }
   />,
   document.getElementById('root')
 );
 ```
+
 ## Required Property
+
 <table>
   <thead>
     <tr>
@@ -48,4 +58,5 @@ ReactDOM.render(
 </table>
 
 ## License
-This project is licensed under the MIT License - see the ``LICENSE.md`` file for details
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details
