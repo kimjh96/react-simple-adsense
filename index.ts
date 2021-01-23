@@ -1,0 +1,1 @@
+export { default as GoogleAdSense } from './src/components/GoogleAdSense';
