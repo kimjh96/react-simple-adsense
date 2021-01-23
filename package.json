@@ -1,6 +1,6 @@
 {
   "name": "react-simple-adsense",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's a very simple Google AdSense component.",
   "module": "dist/index.js",
   "repository": "https://github.com/kimjh96/react-simple-adsense",
