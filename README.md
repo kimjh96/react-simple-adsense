@@ -4,9 +4,15 @@ It is a simple Google AdSense component for React
 ## Getting Started
 
 ### Installation
+#### npm
+```
+npm i react-simple-adsense
+```
+#### yarn
 ```
 yarn add react-simple-adsense
 ```
+
 ### Usage
 ```javascript
 import React from 'react';
