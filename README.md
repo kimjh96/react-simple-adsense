@@ -52,7 +52,7 @@ ReactDOM.render(
     <tr>
       <td>html</td>
       <td>string</td>
-      <td>Ins tag code within Google AdSense advertising unit code</td>
+      <td>ins tag code within Google AdSense advertising unit code</td>
     </tr>
   </tbody>
 </table>
